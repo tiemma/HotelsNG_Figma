@@ -17,9 +17,24 @@ body, html{
     grid-template-rows: 20% 80%; 
 }
 
+.hour{
+    transform: translateY(-2rem);
+}
+
 .minutes{
     display: grid;
-    grid-template-rows: 80% 20%; 
+    grid-template-rows: 20% 60% 20%; 
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day{
+    font-family: "Noto Sans";
+    font-size: 2rem !important;
 }
 
 
@@ -41,7 +56,7 @@ body, html{
 
 .colon{
     font-size: 10rem;
-    transform: translate(calc(50vw - 4rem), calc(50vh - 6rem));
+    transform: translate(calc(50vw - 4rem), calc(50vh - rem));
     position: fixed;
 }
 

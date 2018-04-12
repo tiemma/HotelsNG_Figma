@@ -16,6 +16,9 @@
             </div>
             <div class="colon">::</div>
             <div class="minutes">
+                <div class="date">
+                <span class="day"><?php echo date('F j, Y') ?></span>
+                </div>
                 <div class="body-m">
                     <span class="minute"><?php echo date('i') ?></span>
                 </div>
