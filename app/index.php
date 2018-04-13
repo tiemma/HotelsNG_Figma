@@ -3,7 +3,7 @@
         <title>Hotels NG Demo</title>
         <link href="style.css" rel="stylesheet" />
     </head>
-
+    <?php date_default_timezone_set("Africa/Lagos"); ?>
     <body>
         <div class="row">
             <div class="hours">
