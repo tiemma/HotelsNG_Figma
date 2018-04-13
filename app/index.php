@@ -11,19 +11,19 @@
                     <span class="text">Time</span>
                 </div>
                 <div class="body-h">
-                    <span class="hour"><?php echo date('H') ?></span>
+                    <span class="hour"><?php echo date('H'); ?></span>
                 </div>
             </div>
             <div class="colon">::</div>
             <div class="minutes">
                 <div class="date">
-                <span class="day"><?php echo date('F j, Y') ?></span>
+                <span class="day"><?php echo date('F j, Y'); ?></span>
                 </div>
                 <div class="body-m">
-                    <span class="minute"><?php echo date('i') ?></span>
+                    <span class="minute"><?php echo date('i'); ?></span>
                 </div>
                 <div class="footer">
-                    <span class="text"><?php echo date('a') ?><span>
+                    <span class="text"><?php echo date('a'); ?><span>
                 </div>
             </div>
         </div>
