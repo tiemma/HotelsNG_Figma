@@ -1,6 +1,6 @@
 # HotelsNG_Figma
 
-Design of figma design for Hotels NG Internship
+Implementation of figma design for Hotels NG Internship
 
 ---
 To run the app, 
